@@ -1,0 +1,21 @@
+{
+  "name": "ruijie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "index": "index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "fs": "0.0.2",
+    "iconv-lite": "^0.4.13",
+    "thunkify": "^2.1.2"
+  }
+}
