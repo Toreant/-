@@ -1,0 +1,198 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/apache/.nvm/versions/node/v5.2.0/bin/node',
+1 verbose cli   '/home/apache/.nvm/versions/node/v5.2.0/bin/npm',
+1 verbose cli   'link' ]
+2 info using npm@3.3.12
+3 info using node@v5.2.0
+4 verbose linkPkg /home/apache/WebstormProjects/ruijie
+5 silly gentlyRm /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie is being purged
+6 verbose gentlyRm don't care about contents; nuking /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie
+7 silly vacuum-fs purging /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie
+8 silly vacuum-fs quitting because other entries in /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules
+9 verbose link build target /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie
+10 silly loadCurrentTree Starting
+11 silly install loadCurrentTree
+12 silly install readLocalPackageData
+13 silly install normalizeTree
+14 silly loadCurrentTree Finishing
+15 silly loadIdealTree Starting
+16 silly install loadIdealTree
+17 silly cloneCurrentTree Starting
+18 silly install cloneCurrentTreeToIdealTree
+19 silly cloneCurrentTree Finishing
+20 silly loadShrinkwrap Starting
+21 silly install loadShrinkwrap
+22 silly loadShrinkwrap Finishing
+23 silly loadAllDepsIntoIdealTree Starting
+24 silly install loadAllDepsIntoIdealTree
+25 silly loadAllDepsIntoIdealTree Finishing
+26 silly idealTree:prePrune ruijie@1.0.0
+26 silly idealTree:prePrune ├── ansi-regex@2.0.0
+26 silly idealTree:prePrune ├── async@1.5.2
+26 silly idealTree:prePrune ├── camelcase@2.1.1
+26 silly idealTree:prePrune ├── cliui@3.1.1
+26 silly idealTree:prePrune ├── co-from-stream@0.0.0
+26 silly idealTree:prePrune ├─┬ co-fs@1.2.0
+26 silly idealTree:prePrune │ └── thunkify@0.0.1
+26 silly idealTree:prePrune ├── co-read@0.0.1
+26 silly idealTree:prePrune ├── co@4.6.0
+26 silly idealTree:prePrune ├── code-point-at@1.0.0
+26 silly idealTree:prePrune ├── colors@1.1.2
+26 silly idealTree:prePrune ├── commander@2.9.0
+26 silly idealTree:prePrune ├── decamelize@1.2.0
+26 silly idealTree:prePrune ├── graceful-readlink@1.0.1
+26 silly idealTree:prePrune ├── iconv-lite@0.4.13
+26 silly idealTree:prePrune ├── ini@1.3.4
+26 silly idealTree:prePrune ├── invert-kv@1.0.0
+26 silly idealTree:prePrune ├── is-fullwidth-code-point@1.0.0
+26 silly idealTree:prePrune ├── lcid@1.0.0
+26 silly idealTree:prePrune ├── nconf@0.8.4
+26 silly idealTree:prePrune ├── number-is-nan@1.0.0
+26 silly idealTree:prePrune ├── os-locale@1.4.0
+26 silly idealTree:prePrune ├── secure-keys@1.0.0
+26 silly idealTree:prePrune ├── string-width@1.0.1
+26 silly idealTree:prePrune ├── strip-ansi@3.0.1
+26 silly idealTree:prePrune ├── thunkify@2.1.2
+26 silly idealTree:prePrune ├── underscore@1.8.3
+26 silly idealTree:prePrune ├── window-size@0.1.4
+26 silly idealTree:prePrune ├── wrap-ansi@2.0.0
+26 silly idealTree:prePrune ├── y18n@3.2.1
+26 silly idealTree:prePrune └── yargs@3.32.0
+27 silly loadIdealTree Finishing
+28 silly currentTree ruijie@1.0.0
+28 silly currentTree ├── ansi-regex@2.0.0
+28 silly currentTree ├── async@1.5.2
+28 silly currentTree ├── camelcase@2.1.1
+28 silly currentTree ├── cliui@3.1.1
+28 silly currentTree ├── co-from-stream@0.0.0
+28 silly currentTree ├─┬ co-fs@1.2.0
+28 silly currentTree │ └── thunkify@0.0.1
+28 silly currentTree ├── co-read@0.0.1
+28 silly currentTree ├── co@4.6.0
+28 silly currentTree ├── code-point-at@1.0.0
+28 silly currentTree ├── colors@1.1.2
+28 silly currentTree ├── commander@2.9.0
+28 silly currentTree ├── decamelize@1.2.0
+28 silly currentTree ├── graceful-readlink@1.0.1
+28 silly currentTree ├── iconv-lite@0.4.13
+28 silly currentTree ├── ini@1.3.4
+28 silly currentTree ├── invert-kv@1.0.0
+28 silly currentTree ├── is-fullwidth-code-point@1.0.0
+28 silly currentTree ├── lcid@1.0.0
+28 silly currentTree ├── nconf@0.8.4
+28 silly currentTree ├── number-is-nan@1.0.0
+28 silly currentTree ├── os-locale@1.4.0
+28 silly currentTree ├── secure-keys@1.0.0
+28 silly currentTree ├── string-width@1.0.1
+28 silly currentTree ├── strip-ansi@3.0.1
+28 silly currentTree ├── thunkify@2.1.2
+28 silly currentTree ├── underscore@1.8.3
+28 silly currentTree ├── window-size@0.1.4
+28 silly currentTree ├── wrap-ansi@2.0.0
+28 silly currentTree ├── y18n@3.2.1
+28 silly currentTree └── yargs@3.32.0
+29 silly idealTree ruijie@1.0.0
+29 silly idealTree ├── ansi-regex@2.0.0
+29 silly idealTree ├── async@1.5.2
+29 silly idealTree ├── camelcase@2.1.1
+29 silly idealTree ├── cliui@3.1.1
+29 silly idealTree ├── co-from-stream@0.0.0
+29 silly idealTree ├─┬ co-fs@1.2.0
+29 silly idealTree │ └── thunkify@0.0.1
+29 silly idealTree ├── co-read@0.0.1
+29 silly idealTree ├── co@4.6.0
+29 silly idealTree ├── code-point-at@1.0.0
+29 silly idealTree ├── colors@1.1.2
+29 silly idealTree ├── commander@2.9.0
+29 silly idealTree ├── decamelize@1.2.0
+29 silly idealTree ├── graceful-readlink@1.0.1
+29 silly idealTree ├── iconv-lite@0.4.13
+29 silly idealTree ├── ini@1.3.4
+29 silly idealTree ├── invert-kv@1.0.0
+29 silly idealTree ├── is-fullwidth-code-point@1.0.0
+29 silly idealTree ├── lcid@1.0.0
+29 silly idealTree ├── nconf@0.8.4
+29 silly idealTree ├── number-is-nan@1.0.0
+29 silly idealTree ├── os-locale@1.4.0
+29 silly idealTree ├── secure-keys@1.0.0
+29 silly idealTree ├── string-width@1.0.1
+29 silly idealTree ├── strip-ansi@3.0.1
+29 silly idealTree ├── thunkify@2.1.2
+29 silly idealTree ├── underscore@1.8.3
+29 silly idealTree ├── window-size@0.1.4
+29 silly idealTree ├── wrap-ansi@2.0.0
+29 silly idealTree ├── y18n@3.2.1
+29 silly idealTree └── yargs@3.32.0
+30 silly generateActionsToTake Starting
+31 silly install generateActionsToTake
+32 silly generateActionsToTake Finishing
+33 silly diffTrees action count 0
+34 silly decomposeActions action count 0
+35 silly executeActions Starting
+36 silly install executeActions
+37 silly doSerial global-install 0
+38 silly doParallel fetch 0
+39 verbose lock using /home/apache/.npm/_locks/staging-9a8257c04142469a.lock for /home/apache/WebstormProjects/ruijie/node_modules/.staging
+40 silly doParallel extract 0
+41 silly doParallel preinstall 0
+42 silly doReverseSerial remove 0
+43 silly doSerial move 0
+44 silly doSerial finalize 0
+45 silly doSerial build 0
+46 silly doSerial global-link 0
+47 silly doParallel update-linked 0
+48 silly doSerial install 0
+49 silly doSerial postinstall 0
+50 verbose unlock done using /home/apache/.npm/_locks/staging-9a8257c04142469a.lock for /home/apache/WebstormProjects/ruijie/node_modules/.staging
+51 silly executeActions Finishing
+52 silly rollbackFailedOptional Starting
+53 silly rollbackFailedOptional Finishing
+54 silly runTopLevelLifecycles Starting
+55 silly install runTopLevelLifecycles
+56 silly preinstall ruijie@1.0.0 /home/apache/WebstormProjects/ruijie/ruijie-67ae657e7a4ce0b2a5969d20a77c4893
+57 info lifecycle ruijie@1.0.0~preinstall: ruijie@1.0.0
+58 silly lifecycle ruijie@1.0.0~preinstall: no script for preinstall, continuing
+59 silly build ruijie@1.0.0
+60 info linkStuff ruijie@1.0.0
+61 silly linkStuff ruijie@1.0.0 has /home/apache/WebstormProjects as its parent node_modules
+62 verbose linkBins ruijie@1.0.0
+63 verbose linkMans ruijie@1.0.0
+64 silly install ruijie@1.0.0 /home/apache/WebstormProjects/ruijie/ruijie-67ae657e7a4ce0b2a5969d20a77c4893
+65 info lifecycle ruijie@1.0.0~install: ruijie@1.0.0
+66 silly lifecycle ruijie@1.0.0~install: no script for install, continuing
+67 silly postinstall ruijie@1.0.0 /home/apache/WebstormProjects/ruijie/ruijie-67ae657e7a4ce0b2a5969d20a77c4893
+68 info lifecycle ruijie@1.0.0~postinstall: ruijie@1.0.0
+69 silly lifecycle ruijie@1.0.0~postinstall: no script for postinstall, continuing
+70 silly prepublish ruijie@1.0.0 /home/apache/WebstormProjects/ruijie/ruijie-67ae657e7a4ce0b2a5969d20a77c4893
+71 info lifecycle ruijie@1.0.0~prepublish: ruijie@1.0.0
+72 silly lifecycle ruijie@1.0.0~prepublish: no script for prepublish, continuing
+73 silly runTopLevelLifecycles Finishing
+74 silly install printInstalled
+75 warn EPACKAGEJSON ruijie@1.0.0 No description
+76 warn EPACKAGEJSON ruijie@1.0.0 No repository field.
+77 info build /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie
+78 info linkStuff ruijie@1.0.0
+79 silly linkStuff ruijie@1.0.0 has /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules as its parent node_modules
+80 silly linkStuff ruijie@1.0.0 is part of a global install
+81 silly linkStuff ruijie@1.0.0 is installed into a global node_modules
+82 silly linkStuff ruijie@1.0.0 is installed into the top-level global node_modules
+83 verbose linkBins ruijie@1.0.0
+84 verbose link bins [ { index: 'index' },
+84 verbose link bins   '/home/apache/.nvm/versions/node/v5.2.0/bin',
+84 verbose link bins   true ]
+85 verbose linkMans ruijie@1.0.0
+86 verbose stack Error: ENOENT: no such file or directory, chmod '/home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie/index'
+86 verbose stack     at Error (native)
+87 verbose cwd /home/apache/WebstormProjects/ruijie
+88 error Linux 3.19.0-39-generic
+89 error argv "/home/apache/.nvm/versions/node/v5.2.0/bin/node" "/home/apache/.nvm/versions/node/v5.2.0/bin/npm" "link"
+90 error node v5.2.0
+91 error npm  v3.3.12
+92 error path /home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie/index
+93 error code ENOENT
+94 error errno -2
+95 error syscall chmod
+96 error enoent ENOENT: no such file or directory, chmod '/home/apache/.nvm/versions/node/v5.2.0/lib/node_modules/ruijie/index'
+96 error enoent This is most likely not a problem with npm itself
+96 error enoent and is related to npm not being able to find a file.
+97 verbose exit [ -2, true ]

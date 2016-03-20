@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * Created by apache on 16-3-20.
  */
@@ -7,7 +8,7 @@ var fn = require('./main');
 program
     .version('0.1.0')
     .option('-s, --save', 'save the count')
-    .option('-d, --delete [index | count]', 'delete the count')
+    .option('-d, --delete [index]', 'delete the count')
     .option('-l, --list', 'show the saved count list')
     .option('-u, --user [value]','the user')
     .option('-p, --password [value]','the user password')
@@ -19,14 +20,20 @@ var count = program.user,
 
 if(program.save) {
     if(count && password) {
-        fn('s',count,password);
+        fn.connect(count,password);
+        fn.write(count,password);
     } else {
         console.log('no data');
     }
+}else if(program.list) {
+    fn.list();
 } else if(program.delete) {
-
-} else if(program.list) {
-    fn('l');
+    var index = parseInt(program.delete);
+    if(!isNaN(index)) {
+        fn.delete(index);
+    } else {
+        console.log('错误的输入');
+    }
 } else {
-    fn('',null,null,program.index);
+    fn.defaultConnect(program.index);
 }

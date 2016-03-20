@@ -1,6 +1,6 @@
 {
   "name": "ruijie",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "co": "^4.6.0",
+    "co-fs": "^1.2.0",
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "fs": "0.0.2",
     "iconv-lite": "^0.4.13",
-    "thunkify": "^2.1.2"
+    "nconf": "^0.8.4",
+    "thunkify": "^2.1.2",
+    "underscore": "^1.8.3"
   }
 }
