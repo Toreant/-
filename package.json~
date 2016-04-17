@@ -1,7 +1,7 @@
 {
   "name": "ruijie",
   "version": "0.1.0",
-  "description": "It is my easy package to link the ruijie.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -3,7 +3,7 @@
  * Created by apache on 16-3-20.
  */
 var program = require('commander');
-var fn = require('./main');
+var fn = require('../lib/main');
 
 program
     .version('0.1.0')
